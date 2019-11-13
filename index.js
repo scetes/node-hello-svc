@@ -34,4 +34,4 @@ function factorialize(num) {
 
 app.listen(8088);
 
-console.log("node app listening on 8088");
+console.log("node svc app listening on 8088");
