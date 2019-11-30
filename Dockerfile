@@ -13,7 +13,7 @@ RUN rm -rf node-hello-svc; true
 RUN git clone git://github.com/scetes/node-hello-svc
 
 # install node modules  as defined in package.json
-RUN cd node-hello ;npm install
+RUN cd node-hello-svc ;npm install
 
 # check the container's fs to verify files were pulled in
 RUN ls -l /node-hello-svc
