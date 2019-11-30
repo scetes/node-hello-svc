@@ -17,7 +17,7 @@ var factr = Number(req.params.factornum);
 today = yyyy + '-' + mm + '-' + dd + '-' + hms;
 
 factored = factorialize(factr);
-
+  console.log("Calcuating factortial.");
   res.json({"factor": factr, "answer": factored});
 });
 
